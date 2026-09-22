@@ -7,7 +7,7 @@ cask "welock" do
   desc "Native macOS app-lock utility using system authentication"
   homepage "https://github.com/Omar-Hosny2702/WeLock"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "WeLock.app"
 
