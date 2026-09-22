@@ -2,10 +2,26 @@
 
 Official Homebrew tap for WeLock by Omar Hosny.
 
-Once the v1.2.2 release asset is published, install with:
+## Install
 
 ```sh
 brew install --cask Omar-Hosny2702/tap/welock
 ```
 
-The cask will be added after the release archive URL and SHA-256 are finalised.
+## Upgrade
+
+```sh
+brew upgrade --cask welock
+```
+
+## Uninstall
+
+```sh
+brew uninstall --cask welock
+```
+
+Current cask: WeLock 1.2.2.
+
+The current WeLock release is not Apple-notarised, so macOS may require approval in System Settings → Privacy & Security on first launch. Do not disable Gatekeeper globally.
+
+Project: https://github.com/Omar-Hosny2702/WeLock
